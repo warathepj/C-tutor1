@@ -9,6 +9,11 @@ void demo1() {
     printf("%c\n", grade[2]);
 }
 
+void demo2() {
+    char grade[] = {'A', 'B', 'C', 'D'};
+    printf("%c\n", grade[2]);
+}
+
 int main() {
     demo1();
     return 0;
