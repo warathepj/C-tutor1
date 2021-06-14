@@ -14,7 +14,20 @@ void demo2() {
     printf("%c\n", grade[2]);
 }
 
+void demo3() {
+    char grade[] = "ABCD";
+    printf("%c\n", grade[3]);
+}
+
+void demo4() {
+    char grade[] = {'A', 'B', 'C', 'D'};
+    char letter[] = "ABCD";
+    printf("%c\n", grade[0]);
+    printf("%c\n", letter[1]);
+
+}
+
 int main() {
-    demo1();
+    demo4();
     return 0;
 }
